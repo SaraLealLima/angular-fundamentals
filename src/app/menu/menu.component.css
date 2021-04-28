@@ -2,3 +2,13 @@
     margin: 20px;
     display: flex;
 }
+
+.card1 {
+    max-width: 350px;
+  }
+
+.div-do-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

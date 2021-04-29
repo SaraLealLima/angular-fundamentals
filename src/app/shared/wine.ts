@@ -1,3 +1,4 @@
+import { Comment } from './comment';
 export class Wine {
     id: string;
     name: string;
@@ -11,9 +12,3 @@ export class Wine {
     comments?: Comment[]
 }
 
-class Comment {
-    rating: number;
-        comment: string;
-        author: string;
-        date: string;
-}

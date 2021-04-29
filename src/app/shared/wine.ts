@@ -8,4 +8,12 @@ export class Wine {
     price: string;
     country: string;
     description: string;
+    comments?: Comment[]
+}
+
+class Comment {
+    rating: number;
+        comment: string;
+        author: string;
+        date: string;
 }
